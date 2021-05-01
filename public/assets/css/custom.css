@@ -1,0 +1,268 @@
+.custom_id {
+    margin-top: 120px;
+}
+.modal-body.co_test {
+    padding: 0;
+}
+.modal-body.co_test .appointment {
+    padding: 35px 30px;
+}
+.modal-title img {
+    width: 150px;
+}
+#hero {
+    height: 60vh;
+}
+
+/*vertical tabs*/
+
+.vertical-tab{
+    /*font-family: 'Zilla Slab', serif;*/
+    display: table;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #bbccbb;
+    overflow: hidden;
+}
+.vertical-tab .nav-tabs{
+    background: linear-gradient(#3fbbc0, #fff);
+    display: table-cell;
+    width: 20%;
+    min-width: 20%;
+    min-height: 100%;
+    /*vertical-align: middle;*/
+    border: none;
+    position: relative;
+}
+.vertical-tab .nav-tabs li{
+    float: none;
+    vertical-align: top;
+    position: relative;
+}
+.fade:not(.show) {
+    opacity: 1;
+}
+.vertical-tab .nav-tabs li a{
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: capitalize;
+    display: block;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+.vertical-tab .nav-tabs li a:hover,
+.vertical-tab .nav-tabs li.active a,
+.vertical-tab .nav-tabs li.active a:hover{
+    /*color: #000;*/
+    /*box-shadow: 0 0 1px #555;*/
+    /*border: none;*/
+}
+.vertical-tab .nav-tabs li a i{
+    font-size: 14px;
+    margin: 0 5px 0 0;
+}
+.vertical-tab .tab-content{
+    color: #333;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding: 30px 15px 10px;
+    margin-top: 10px;
+    display: table-cell;
+    position: relative;
+}
+.vertical-tab .tab-content h3{
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 7px 0;
+}
+@media only screen and (max-width: 479px){
+    .vertical-tab{
+        padding: 0;
+        margin: 0;
+    }
+    .vertical-tab .nav-tabs{
+        width: 100%;
+        display: block;
+        margin: 0 0 4px;
+    }
+    .vertical-tab .tab-content{
+        font-size: 14px;
+        margin-top: 0;
+        border-top: 3px solid #e7e7e7;
+        display: block;
+    }
+    .vertical-tab .tab-content h3{ font-size: 18px; }
+}
+
+/*End vertical tabs*/
+
+
+/*details page hospitalzed*/
+
+.doctors_near_page #hero {
+    background: #fff;
+    /* box-shadow: 0 0 22px #555; */
+}
+
+.doctors_near_page #hero .container {
+    box-shadow: 0 0 8px #c3bfbf;
+}
+.near_box {
+    /* text-align: center; */
+    background: rgba(255, 255, 255, 0.9);
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    margin-bottom: 50px;
+    border-top: 4px solid #3fbbc0;
+    box-shadow: 0 0 15px #eee;
+    padding: 25px;
+}
+.near_btn a {
+    background: #3fbbc0;
+    color: #fff;
+    padding: 7px 20px;
+    margin-right: 5px;
+}
+.near_btn {
+    margin-top: 30px;
+}
+.doctors_near_page {
+    background: azure;
+    background-image: url('../img/unnamed.jpg');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/*End details page hospitalzed*/
+
+/*Hospital Services (covid)*/
+
+button.booking_ambulance {
+    background: #52c2c6;
+    border: none;
+    color: #000;
+    padding: 12px 23px;
+    color: #fff;
+    margin: 13px 0 0;
+    border-radius: 50px;
+}
+.well-block {
+    background-color: #fff;
+    border: 1px solid #e9e6e8;
+    padding: 40px;
+}
+
+.well-title {
+    margin-bottom: 40px;
+}
+.near_box h3 {
+    padding-bottom: 15px;
+}
+.service_form {
+    padding: 25px 0;
+}
+
+/*End Hospital Services (covid)*/
+
+
+/*Daily info ()*/
+
+.our-team-main
+{
+    width:100%;
+    height:auto;
+    /*border-bottom:5px #323233 solid;*/
+    background:#fff;
+    text-align:center;
+    border-radius:10px;
+    overflow:hidden;
+    position:relative;
+    transition:0.5s;
+    margin-bottom:28px;
+}
+
+
+.our-team-main img
+{
+    border-radius:50%;
+    margin-bottom:20px;
+    width: 90px;
+}
+
+.our-team-main h3
+{
+    font-size:20px;
+    font-weight:700;
+}
+
+.our-team-main p
+{
+    margin-bottom:0;
+}
+
+.team-back
+{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    padding:5px 15px 0 15px;
+    text-align:left;
+    background:#fff;
+    
+}
+
+.team-front {
+    width: 100%;
+    height: auto;
+    /*position: relative;*/
+    z-index: 10;
+    background: #fff;
+    /*padding: 15px;*/
+    margin: 15px;
+    bottom: 0px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 9px #eee;
+}
+.team-front h2 {
+    background: #eee;
+    padding: 10px 0;
+}
+.sc_report {
+    border: 1px solid #eee;
+    padding: 7px 20px;
+}
+.text-center.page_title h2 {
+    font-size: 45px;
+    color: #fff;
+}
+.report_covid {
+    text-align: left;
+}
+
+.our-team-main:hover .team-front
+{
+    bottom:-200px;
+    transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+    border-color:#777;
+    transition:0.5s;
+}
+
+/*our-team-main*/
+
+/*End Daily info ()*/
